@@ -1,8 +1,8 @@
-## HelloMaven
+# HelloMaven
 
 [TOC]
 
-### 1、介绍Maven
+## 1、介绍Maven
 
 Maven基于Java的工程管理工具。一般IDE工具，例如Eclipse，集成了maven的工程模板。
 
@@ -10,7 +10,7 @@ Maven基于Java的工程管理工具。一般IDE工具，例如Eclipse，集成�
 
 
 
-#### （1）安装maven
+### (1) 安装maven
 
 ```shell
 $ brew install maven
@@ -18,7 +18,7 @@ $ brew install maven
 
 
 
-#### （2）创建maven工程
+### (2) 创建maven工程
 
 ```shell
 $ mvn archetype:generate
@@ -60,7 +60,7 @@ $ mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -Darche
 
 
 
-#### （3）maven命令
+### (3) maven命令
 
 在maven工程中，可以使用maven命令来完成特定任务。比如使用`mvn package`编译工程
 
@@ -86,6 +86,10 @@ $ mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -Darche
 $ java -cp target/HelloMaven-1.0-SNAPSHOT.jar com.wc.App           
 Hello World!
 ```
+
+
+
+2、
 
 
 
